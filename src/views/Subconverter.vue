@@ -4,9 +4,7 @@
       <el-col>
         <el-card>
           <div slot="header">
-            Subscription Converter
-            <svg-icon icon-class="github" style="margin-left: 20px" @click="goToProject" />
-
+            Sub Converter
             <div style="display: inline-block; position:absolute; right: 20px">{{ backendVersion }}</div>
           </div>
           <el-container>
